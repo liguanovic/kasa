@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+  }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px 0;
+    height: 110px;
+  
+    img {
+      position: absolute;
+      border-radius: 20px;
+      height: 220px;
+      width: 100%;
+      object-fit: cover;
+      filter: brightness(50%);
+    }
+  
+    h1 {
+      position: relative;
+      z-index: 1;
+      padding: 0 20px;
+      font-size: 3rem;
+      color: white;
+    }
+  }

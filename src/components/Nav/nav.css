@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 100px 0;
+    padding-bottom: 60px;
+  
+    img {
+      width: 145px;
+    }
+  
+    ul {
+      display: flex;
+      gap: 40px;
+      list-style: none;
+    }
+  
+    li {
+      font-size: 1.4rem;
+    }
+  
+    a {
+      color: black;
+    }
+  
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+  }

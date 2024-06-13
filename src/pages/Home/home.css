@@ -1,0 +1,13 @@
+[id="home"] {
+  margin: 50px 100px;
+
+    ul {
+      display: flex;
+      flex-flow: wrap;
+      gap: 30px;
+    }
+  
+    li {
+      width: 100%;
+    }
+}
