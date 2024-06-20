@@ -5,7 +5,7 @@ const Banner = ({ imgSrc, alt, title }) => {
     return (
         <header className="banner">
             <img src={imgSrc} alt={alt} />
-            { title && <h1>{title}</h1> }   
+            <h1>{title}</h1>
         </header>
     );
 }

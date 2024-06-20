@@ -1,0 +1,34 @@
+[id="about"] {
+    margin: 50px 100px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: brightness(50%);
+  }
+
+@media (max-width: 1200px) {
+    [id="about"] {
+        margin: 30px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    [id="about"] {
+        margin: 30px;
+    }
+}

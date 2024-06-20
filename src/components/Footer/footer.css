@@ -17,3 +17,13 @@
         color: white;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 60px 20px;
+    }
+
+    .footer img {
+        margin-bottom: 20px;
+    }
+}
