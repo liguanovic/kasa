@@ -1,29 +1,24 @@
-import { useState } from "react";
-import "./collapse.css";
+import { useState } from 'react';
+import './collapse.css';
 
-    const Collapse = ({ title, content }) => {
-        const [isOpen, setIsOpen] = useState(false);
-        const toggleCollapse = () => setIsOpen(!isOpen);
+const Collapse = ({ title, content }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleCollapse = () => setIsOpen(!isOpen);
 
-        return (
-          <section className="collapse">
+    return (
+        <section className='collapse'>
             <header onClick={toggleCollapse}>
-            <h2>{title}</h2>
-            <i className={`fas fa-chevron-${isOpen ? "down" : "up"}`}></i>
+                <h2>{title}</h2>
+                <i className={`fa-solid fa-chevron-${isOpen ? 'up' : 'down'}`}></i>
             </header>
 
-            { isOpen && (title ? (
-            <ul>
-              <li className={isOpen ? 'open' : ""}>{content}</li>
+            {isOpen && (
+                <ul>
+                    <li className='open'>{content}</li>
+                </ul>
+            )}
+        </section>
+    );
+};
 
-            </ul> 
-        ) : (
-            <ul>
-              <li className={isOpen ? 'open' : ""}>{content}</li>
-            </ul>
-          ))}
-          </section>
-        );
-      };
-
-export default Collapse
+export default Collapse;

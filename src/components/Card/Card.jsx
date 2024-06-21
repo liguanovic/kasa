@@ -3,12 +3,12 @@ import "./card.css";
 
 const Card = ({ title, cover, id }) => {
     return (
+        <Link to={`/housing/${id}`}>
         <figure className="card">
-            <Link to={`/housing/${id}`}>
                 <img src={cover} alt={title} />
                 <figcaption>{title}</figcaption>
-            </Link>
         </figure>
+        </Link>
     );
 }
 

@@ -1,0 +1,50 @@
+.carousel {
+    position: relative;
+    width: 1240px;
+    height: 415px;
+    margin-top: 60px;
+}
+
+.carousel figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.carousel .arrow img {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    height: 80px;
+    width: auto; 
+}
+
+.carousel .arrow img.arrow-left {
+    left: 30px; 
+}
+
+.carousel .arrow img.arrow-right {
+    right: 30px;
+}
+
+.carousel p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
