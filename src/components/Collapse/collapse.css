@@ -1,7 +1,6 @@
 .collapse {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: 30px 100px;
 }
 
@@ -33,16 +32,17 @@
     overflow: hidden;
     background-color: #f6f6f6;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     border-radius: 0 0 5px 5px;
     margin-top: -10px; 
 }
 
 .collapse ul li {
-    margin: 20px;
     font-size: 1rem;
     list-style: none;
     display: flex;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 .collapse i {

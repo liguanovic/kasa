@@ -1,6 +1,6 @@
 .carousel {
     position: relative;
-    width: 1240px;
+    width: 100%;
     height: 415px;
     margin-top: 60px;
 }
@@ -41,10 +41,8 @@
 
 .carousel p {
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    margin-bottom: 20px;
-    font-weight: 500;
 }

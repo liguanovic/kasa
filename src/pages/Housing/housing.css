@@ -2,7 +2,81 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+	margin: 0 100px;
 }
 
+[id='housing'] h1 {
+    font-weight: 500;
+    margin: 0;
+    color: #ff6060;
+    font-size: 30px;
+}
 
+.details p {
+    font-weight: 500;
+    margin: 0;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.details ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.details li {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #ff6060;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+}
+
+header ul {
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+}
+
+header + figure {
+    text-align: right;
+    margin: 0;
+	flex-flow: column-reverse;
+}
+
+.description {
+    display: flex;
+    gap: 60px;
+    width: 100%;
+	margin: 0;
+}
+
+.description .collapse {
+	margin: 0 0 40px 0;
+
+}
+
+.description .collapse:last-child ul {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px; 
+	line-height: 1;
+}
+
+.description > * {
+    width: calc(100% - 10px);
+}
