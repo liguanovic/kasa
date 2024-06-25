@@ -59,4 +59,8 @@
   [id="home"] li:not(:last-child) {
     margin-bottom: 20px;
   }
+
+  [id="home"] figcaption {
+    font-size: 1.3rem;
+}
 }
