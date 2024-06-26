@@ -7,6 +7,7 @@ import Error from './pages/Error/Error';
 import Housing from './pages/Housing/Housing';
 import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
+
 import './index.css';
 
 

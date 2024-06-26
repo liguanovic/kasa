@@ -43,7 +43,7 @@
 @media (max-width: 768px) {
     .card {
         width: 100%;
-        aspect-ratio: 2 / 1;
+        aspect-ratio: 4 / 2.5;
     }
 
     .card img {

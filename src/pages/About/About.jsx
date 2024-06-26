@@ -1,14 +1,19 @@
-import data from "../../data/data.json";
-import img from "../../assets/aboutus.jpg";
-import Banner from "../../components/Banner/Banner";
-import Collapse from "../../components/Collapse/Collapse";
+import data from '../../data/data.json';
+import img from '../../assets/aboutus.jpg';
+import Banner from '../../components/Banner/Banner';
+import Collapse from '../../components/Collapse/Collapse';
 
-import "./about.css";
+import './about.css';
 
+/**
+ * Renders the About page component.
+ *
+ * @return {JSX.Element} The rendered About page component.
+ */
 const About = () => {
 
     return (
-        <main id="about">
+        <main id='about'>
             <Banner
                 imgSrc={img}
                 alt={data.about}

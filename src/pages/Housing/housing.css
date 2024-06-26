@@ -90,10 +90,7 @@ header + figure {
 @media (max-width: 768px) {
     .description {
         display: block;
-    }
-
-    .description .collapse {
-        margin: 0 0 40px 0;
+        margin-top: 20px;
     }
 
     .collapse header {
@@ -102,6 +99,7 @@ header + figure {
 
     .details {
         flex-direction: column;
+        margin: 0;
     }
 
     .details header {
@@ -120,4 +118,8 @@ header + figure {
         flex: 0 0 auto;
         margin-right: 20px;
     }
+
+    .details figcaption {
+        order: -1;
+}
 }

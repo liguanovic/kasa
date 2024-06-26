@@ -43,11 +43,11 @@
 
 @media (max-width: 768px) {
   [id="home"] {
-    margin: 30px;
+    margin: 20px;
   }
 
   [id="home"] ul {
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 0;
     gap: 20px;
     background-color: transparent; 
@@ -61,6 +61,6 @@
   }
 
   [id="home"] figcaption {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 }

@@ -1,5 +1,10 @@
 import './error.css';
 
+/**
+ * Renders an error message with a 404 status code.
+ *
+ * @return {JSX.Element} The error message JSX element.
+ */
 const Error = () => {
     return (
         <main id="error">

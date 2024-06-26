@@ -44,11 +44,13 @@ nav a.active {
   }
 
   nav img {
-    width: 200px;
+    height: 80px;
   }
   
   nav ul {
+    gap: 20px;
     text-transform: uppercase;
+    padding: 0 0 0 20px;
     }
 
   nav li {

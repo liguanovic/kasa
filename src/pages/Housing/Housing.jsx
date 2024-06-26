@@ -8,6 +8,11 @@ import Collapse from "../../components/Collapse/Collapse"
 
 import "./housing.css"
 
+/**
+ * Renders the details of a housing card including title, location, tags, host information, and description.
+ *
+ * @return {JSX.Element} The JSX element representing the housing details.
+ */
 const Housing = () => {
     const { id } = useParams();
     const card = data.housing.find((card) => card.id === id.toString());
