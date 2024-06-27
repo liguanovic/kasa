@@ -1,7 +1,7 @@
 {
   "name": "kasa",
   "version": "0.1.0",
-  "homepage": "http//liguanovic.github.io/kasa",
+  "homepage": "https://liguanovic.github.io/kasa",
   "repository": "github:liguanovic/kasa",
   "private": true,
   "dependencies": {
