@@ -19,9 +19,9 @@ root.render(
     <Nav />
 
     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/housing/:id' element={<Housing />} />
-      <Route path='/about' element={<About />} />
+      <Route exact path='/' element={<Home />} />
+      <Route exact path='/housing/:id' element={<Housing />} />
+      <Route exact path='/about' element={<About />} />
       <Route path='/*' element={<Error />} />
     </Routes>
 
